@@ -12,7 +12,7 @@ const errordisplay = document.getElementById("errordisplay");
 
 submit.addEventListener('click', () => {
     let weatherinput = input.value.toLowerCase();
-    const apikey = '';
+    const apikey = '';//Add your Api key
     const weather_data = `http://api.openweathermap.org/data/2.5/weather?q=${weatherinput}&appid=${apikey}`;
 
     fetch(weather_data)
