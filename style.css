@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   height: 100vh;
   display: flex;
@@ -81,3 +82,88 @@ p{
   color: rgb(0, 0, 0);
 }
 
+=======
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+#weather {
+  backdrop-filter: blur(13px);
+  /* border: 5px solid hsl(0, 0%, 0%); */
+  border: transparent;
+  border-radius: 10px;
+  width: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 20px hsl(0, 0%, 0%);
+}
+#input {
+  height: 22px;
+  border: none;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border-radius: 50px;
+  margin-bottom: 13px;
+  margin-right: 10px;
+}
+#search {
+  display: flex;
+}
+#submit {
+  background-color: hsl(0, 0%, 100%);
+  font-family: Arial;
+  font-size: 1.3rem;
+  width: 60px;
+  font-weight: bold;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  height: 42px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+}
+#contain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#submit:hover {
+  background-color: hsla(0, 0%, 1%, 0.221);
+}
+#input::placeholder {
+  color: black;
+}
+p{
+  margin: 10px;
+  padding: 2px;
+}
+#emoji{
+  font-size: 100px;
+}
+.submit:active{
+  background-color: hsl(171, 64%, 51%);
+}
+#errordisplay{
+  color: rgb(0, 0, 0);
+}
+
+>>>>>>> 10f8bc3ef5188b9167937f0ffcba9d2f094ba2b4
